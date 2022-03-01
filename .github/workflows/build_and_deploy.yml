@@ -20,5 +20,5 @@ jobs:
       uses: benmatselby/hugo-deploy-gh-pages@master
       env:
         HUGO_VERSION: 0.93.0
-        TARGET_REPO: jadolan.github.io
+        TARGET_REPO: jadolan/jadolan.github.io
         TOKEN: ${{ secrets.HUGO_DEPLOY_SECRET }}
