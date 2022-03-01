@@ -21,4 +21,5 @@ jobs:
       env:
         HUGO_VERSION: 0.93.0
         TARGET_REPO: jadolan/jadolan.github.io
+        TARGET_BRANCH: main
         TOKEN: ${{ secrets.HUGO_DEPLOY_SECRET }}
